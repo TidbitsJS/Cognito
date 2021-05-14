@@ -26,22 +26,22 @@ const Footer = () => {
           </div>
 
           <div className="footer__container__followUs-accounts">
-            <a href="#" class="fb" title="Join us on Facebook">
+            <a href="#facebook" class="fb" title="Join us on Facebook">
               <i class="bx bxl-facebook" aria-hidden="true"></i>
             </a>
-            <a href="#" class="tw" title="Join us on Twitter">
+            <a href="#twitter" class="tw" title="Join us on Twitter">
               <i class="bx bxl-twitter" aria-hidden="true"></i>
             </a>
-            <a href="#" class="g-plus" title="Join us on Google+">
+            <a href="#googlePlus" class="g-plus" title="Join us on Google+">
               <i class="bx bxl-google-plus" aria-hidden="true"></i>
             </a>
-            <a href="#" class="dribbble" title="Join us on Dribbble">
+            <a href="#dribble" class="dribbble" title="Join us on Dribbble">
               <i class="bx bxl-dribbble" aria-hidden="true"></i>
             </a>
-            <a href="#" class="insta" title="Join us on Instagram">
+            <a href="#instagram" class="insta" title="Join us on Instagram">
               <i class="bx bxl-instagram" aria-hidden="true"></i>
             </a>
-            <a href="#" class="in" title="Join us on Linked In">
+            <a href="#linkedIn" class="in" title="Join us on Linked In">
               <i class="bx bxl-linkedin" aria-hidden="true"></i>
             </a>
           </div>
