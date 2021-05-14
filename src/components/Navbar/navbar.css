@@ -1,18 +1,3 @@
-:root {
-  --header-height: 3rem;
-
-  --first-color: #5b65f5;
-  --first-color-light: #c4c7f5;
-  --dark-color: #0e1026;
-  --white-color: #fbfbfb;
-
-  --body-font: "Open Sans", sans-serif;
-  --nav-name-font-size: 1.5rem;
-  --normal-font-size: 0.938rem;
-
-  --z-fixed: 100;
-}
-
 @media screen and (min-width: 768px) {
   :root {
     --nav-name-font-size: 1rem;

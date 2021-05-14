@@ -1,0 +1,120 @@
+.landing-page__welcome__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  min-height: calc(100vh - 70px);
+}
+
+.landing-page__welcome__svg-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page__welcome__svg-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.landing-page__welcome__dotted-line {
+  background: #000;
+}
+
+.landing-page__welcome__dotted-line::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 2px dotted var(--light-color);
+}
+
+.landing-page__welcome__info-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+
+  padding: 1rem 2rem;
+}
+
+.landing-page__welcome__info-container__heading {
+  font-size: 2.1rem;
+
+  margin-top: 1rem;
+}
+
+.landing-page__welcome__info-container__subHeading {
+  font-size: 1.2rem;
+  width: 80%;
+
+  margin-bottom: 2rem;
+}
+
+.landing-page__welcome__info-container__buttons {
+  width: 100%;
+}
+
+.btn-ripple {
+  background-position: center;
+  transition: background 0.8s linear, transfrom 0.3s ease-in-out;
+}
+.btn-ripple:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%)
+    center/15000%;
+  transform: scale(0.9) translateZ(0);
+}
+
+.btn-ripple:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s, transfrom 0s ease-in-out;
+}
+
+.landing-page__welcome__info-container__buttons button {
+  border: none;
+  border-radius: 7px;
+  font-size: 1.3rem;
+  padding: 0.7rem 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  color: white;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 4px #999;
+  outline: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .landing-page__welcome__container {
+    flex-direction: column-reverse;
+  }
+
+  .landing-page__welcome__info-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .landing-page__welcome__svg-container {
+    height: 90%;
+  }
+
+  .landing-page__welcome__svg-container img {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .landing-page__welcome__info-container__heading {
+    font-size: 1.7rem;
+  }
+
+  .landing-page__welcome__info-container__subHeading {
+    width: 93%;
+  }
+}
