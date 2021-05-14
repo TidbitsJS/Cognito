@@ -1,4 +1,5 @@
 import React from "react";
+import AboutCompany from "../../components/Landing/AboutCompany";
 import AboutPlans from "../../components/Landing/AboutPlans";
 import Welcome from "../../components/Landing/Welcome";
 
@@ -7,6 +8,7 @@ const Landing = () => {
     <div>
       <Welcome />
       <AboutPlans />
+      <AboutCompany />
     </div>
   );
 };

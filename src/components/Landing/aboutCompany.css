@@ -1,0 +1,93 @@
+.landing-page__aboutCompany__container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  padding: 2rem;
+}
+
+.landing-page__aboutCompany__infoContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 3rem;
+}
+
+.landing-page__aboutCompany__infoContainer__headText {
+  width: 85%;
+}
+
+.landing-page__aboutCompany__infoContainer__headText h2 {
+  color: var(--title-color);
+  font-size: 3rem;
+  text-align: left;
+  font-family: inherit;
+
+  margin-bottom: 1rem;
+}
+
+.landing-page__aboutCompany__infoContainer__subText {
+  width: 80%;
+}
+
+.landing-page__aboutCompany__infoContainer__subText p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: var(--para-color);
+}
+
+.landing-page__aboutCompany__svgContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page__aboutCompany__svgContainer img {
+  width: 90%;
+  height: 90%;
+}
+
+@media screen and (max-width: 1000px) {
+  .landing-page__aboutCompany__container {
+    flex-direction: column;
+  }
+
+  .landing-page__aboutCompany__infoContainer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .landing-page__aboutCompany__svgContainer {
+    height: 90%;
+  }
+
+  .landing-page__aboutCompany__infoContainer__headText {
+    width: 100%;
+  }
+
+  .landing-page__aboutCompany__infoContainer__headText h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .landing-page__aboutCompany__infoContainer__headText {
+    font-size: 1.7rem;
+  }
+
+  .landing-page__aboutCompany__svgContainer {
+    margin-bottom: 2rem;
+  }
+
+  .landing-page__aboutCompany__svgContainer img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .landing-page__aboutCompany__infoContainer__subText {
+    width: 93%;
+  }
+}

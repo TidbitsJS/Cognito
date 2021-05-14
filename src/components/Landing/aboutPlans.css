@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   background: var(--bg-color);
+  padding-bottom: 2rem;
 }
 
 .landing-page__about-container-tipBox {
@@ -59,7 +60,7 @@
   font-weight: 500;
   font-family: inherit;
   line-height: 2rem;
-  color: var(--text-color);
+  color: var(--title-color);
 }
 
 /* plans section */
@@ -146,4 +147,10 @@
   text-transform: capitalize;
   cursor: pointer;
   outline: none;
+}
+
+@media screen and (max-width: 580px) {
+  .landing-page__about-container-plansText-container__content {
+    width: 82%;
+  }
 }
