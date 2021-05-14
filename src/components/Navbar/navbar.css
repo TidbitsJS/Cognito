@@ -143,6 +143,7 @@ a {
 .dropdown__menu {
   margin: 1rem 0 0 1rem;
   display: none;
+  background: #fff;
 }
 
 .dropdown__item {
@@ -237,7 +238,7 @@ a {
   .dropdown__menu {
     position: fixed;
     margin: 0;
-    top: calc(var(--header-height) + 1rem);
+    top: calc(var(--header-height) + 0.5rem);
     padding: 0.5rem 1.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;

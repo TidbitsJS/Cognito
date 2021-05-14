@@ -1,0 +1,149 @@
+.landing-page__about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-color);
+}
+
+.landing-page__about-container-tipBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page__about-container-tipBox__cotent {
+  width: 120px;
+  height: 40px;
+  background: var(--bg-color);
+  border: 2px solid var(--primary-color);
+  border-bottom: none;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: -50%;
+  left: 0%;
+  transform: translate(0%, -97%);
+  cursor: pointer;
+}
+
+.landing-page__about-container-tipBox__cotent h2 {
+  font-size: 1.2rem;
+  font-family: inherit;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Plans plain text section */
+
+.landing-page__about-container-plansText-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.landing-page__about-container-plansText-container__content {
+  width: 60%;
+}
+
+.landing-page__about-container-plansText-container__content p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: inherit;
+  line-height: 2rem;
+  color: var(--text-color);
+}
+
+/* plans section */
+
+.landing-page__about-container__plans-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page__about-container__plans-container_plan {
+  width: 380px;
+  padding: 1rem;
+  margin: 1rem;
+
+  background: #fff;
+  border-radius: 15px;
+}
+
+.landing-page__about-container__plans-container_plan-info {
+  padding: 0 0.5rem;
+}
+
+.landing-page__about-container__plans-container_plan-info h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.landing-page__about-container__plans-container_plan-info h2::first-letter {
+  font-size: 3rem;
+}
+
+.landing-page__about-container__plans-container_plan-info p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.landing-page__about-container__plans-container_plan-features {
+  margin: 0.2rem;
+  background: var(--bg-color);
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.landing-page__about-container__plans-container_plan-features h4 {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.landing-page__about-container__plans-container_plan-features ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.landing-page__about-container__plans-container_plan-features li {
+  padding: 0.5rem;
+}
+
+.landing-page__about-container__plans-container_plan-features ul li::marker {
+  content: "	\2713";
+  color: #ec7819;
+  font-size: 150%;
+}
+
+.landing-page__about-container__plans-container_plan-features-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 0.7rem;
+}
+
+.landing-page__about-container__plans-container_plan-features-btn button {
+  padding: 0.5rem 0.8rem;
+  background: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+}
