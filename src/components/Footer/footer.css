@@ -1,0 +1,217 @@
+.footer__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__container-svgWave {
+  width: 100%;
+  transform: translate(0%, 30%);
+}
+
+.footer__container-svgWave img {
+  width: 100%;
+}
+
+.footer__container__mainBox {
+  width: 100%;
+  background: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+
+  padding: 0rem 3rem;
+}
+
+.footer__container__companyInfo {
+  width: 100%;
+}
+
+.footer__container__companyInfo h3 {
+  font-size: 2rem;
+  margin: 2rem 0rem 0rem 0rem;
+  text-transform: capitalize;
+}
+
+.footer__container__companyInfo h3::first-letter {
+  font-size: 3.5rem;
+}
+
+.footer__container__followUs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0rem 2rem;
+  margin: 2.3rem 0rem 0.8rem 0;
+}
+
+.footer__container__followUs-text {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.footer__container__followUs-text p {
+  margin: 0;
+}
+
+.footer__container__hrStyle {
+  overflow: visible;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+.footer__container__hrStyle::before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.footer__container__mainBox__linkBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.footer__container__mainBox__linkBox-links {
+  width: 280px;
+  margin: 1rem;
+}
+
+.footer__container__mainBox__linkBox-links h4 {
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.footer__container__mainBox__linkBox-links h4::first-letter {
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.footer__container__mainBox__linkBox-links p {
+  cursor: pointer;
+}
+
+.footer__container__mainBox__linkBox-links p:hover {
+  color: var(--title-color);
+  font-weight: 500;
+}
+
+.footer__container__copyright {
+  width: 100%;
+  display: flex;
+}
+
+/* social media accounts  */
+
+.footer__container__followUs-accounts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__container__followUs-accounts a {
+  text-decoration: none !important;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-right: 1rem;
+  font-size: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+.footer__container__followUs-accounts a i {
+  position: relative;
+  z-index: 3;
+}
+
+.footer__container__followUs-accounts a.fb {
+  background-color: #3b5998;
+}
+
+.footer__container__followUs-accounts a.tw {
+  background-color: #00aced;
+}
+
+.footer__container__followUs-accounts a.g-plus {
+  background-color: #dd4b39;
+}
+
+.footer__container__followUs-accounts a.dribbble {
+  background-color: #ea4c89;
+}
+
+.footer__container__followUs-accounts a.pinterest {
+  background-color: #cb2027;
+}
+
+.footer__container__followUs-accounts a.insta {
+  background-color: #bc2a8d;
+}
+
+.footer__container__followUs-accounts a.in {
+  background-color: #007bb6;
+}
+
+.footer__container__followUs-accounts a.vimeo {
+  background-color: #1ab7ea;
+}
+
+.footer__container__followUs-accounts a {
+  transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
+}
+
+.footer__container__followUs-accounts a i {
+  transition: transform 0.2s linear 0s;
+}
+
+.footer__container__followUs-accounts a:hover {
+  transform: rotate(-90deg);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.footer__container__followUs-accounts a:hover i {
+  transform: rotate(90deg);
+}
+
+@media screen and (max-width: 600px) {
+  .footer__container__companyInfo h3 {
+    font-size: 1.5rem;
+  }
+
+  .footer__container__companyInfo h3::first-letter {
+    font-size: 2.3rem;
+  }
+
+  .footer__container__followUs {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer__container__followUs-accounts {
+    margin-top: 0.3rem;
+  }
+
+  .footer__container__followUs-accounts a {
+    margin: 1rem 1rem 0rem 0rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .footer__container__mainBox {
+    padding: 0rem 1rem;
+  }
+}
