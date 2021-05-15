@@ -1,0 +1,115 @@
+.company__plans-container_plan {
+  width: 380px;
+  padding: 1rem;
+  margin: 2rem 1rem;
+
+  background: #fff;
+  border-radius: 15px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.company__plans-container_plan:hover {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.06);
+  transform: translateY(-10px);
+}
+
+.company__plans-container_plan-icon {
+  position: absolute;
+  top: -7%;
+  right: -7%;
+}
+
+.company__plans-container_plan-icon img {
+  width: 100px;
+  height: 100px;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.06));
+}
+
+.company__plans-container_plan-type {
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  padding: 0.3rem 0.6rem;
+  background: var(--primary-color);
+  border-top-right-radius: 5px;
+}
+
+.company__plans-container_plan-type p {
+  margin: 0;
+  color: #fff;
+}
+
+.company__plans-container_plan-info {
+  padding: 0 0.5rem;
+  margin-top: 5rem;
+}
+
+.company__plans-container_plan-info h2 {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.company__plans-container_plan-info h2::first-letter {
+  font-size: 3rem;
+}
+
+.company__plans-container_plan-info p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.company__plans-container_plan-features {
+  margin: 0.2rem;
+  background: var(--bg-color);
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.company__plans-container_plan-features h4 {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.company__plans-container_plan-features ul {
+  padding-left: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.company__plans-container_plan-features li {
+  padding: 0.5rem;
+}
+
+.company__plans-container_plan-features ul li::marker {
+  content: "	\2713";
+  color: #ec7819;
+  font-size: 150%;
+}
+
+.company__plans-container_plan-features-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 0.7rem;
+}
+
+.company__plans-container_plan-features-btn button {
+  padding: 0.5rem 0.8rem;
+  background: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 580px) {
+  .company-plansText-container__content {
+    width: 82%;
+  }
+}

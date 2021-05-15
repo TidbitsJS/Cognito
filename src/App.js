@@ -1,15 +1,25 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Landing from "./container/Landing/Landing";
+import { Pricing } from "./container/Pricing/Pricing";
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Landing />
+      <Switch>
+        <Route path="/" exact>
+          <Landing />
+        </Route>
+        <Route path="/pricing" exact>
+          <Pricing />
+        </Route>
+      </Switch>
       <Footer />
-    </div>
+    </Router>
   );
 };
 

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 
 import "./navbar.css";
 
@@ -7,6 +8,7 @@ const Navbar = () => {
   const [elevateNav, setElevateNav] = useState(false);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     window.addEventListener("scroll", handleScroll);
   }, []);
 
@@ -24,9 +26,11 @@ const Navbar = () => {
 
   return (
     <header className={!elevateNav ? "header" : "header elevate"}>
-      <a href="#logo" className="header__logo">
-        Cognito
-      </a>
+      <NavLink to="/">
+        <a href="/" className="header__logo">
+          Cognito
+        </a>
+      </NavLink>
 
       <i
         className={
@@ -40,8 +44,9 @@ const Navbar = () => {
 
       <nav className={showToggle ? `nav show` : `nav`} id="nav-menu">
         <div className="nav__content bd-grid">
-          <a href="#nav_logo" className="nav__perfil">
-            {/* <div className="nav__img">
+          <NavLink to="/">
+            <a href="/" className="nav__perfil">
+              {/* <div className="nav__img">
               <img src="https://source.unsplash.com/200x200/?nature" alt="" />
             </div>
 
@@ -50,8 +55,9 @@ const Navbar = () => {
               <span className="nav__name">Mitchell</span>
             </div> */}
 
-            <div className="nav__perfil-nav__logo">Cognito</div>
-          </a>
+              <div className="nav__perfil-nav__logo">Cognito</div>
+            </a>
+          </NavLink>
 
           <div className="nav__menu">
             <ul className="nav__list">
@@ -85,9 +91,11 @@ const Navbar = () => {
               </li>
 
               <li className="nav__item dropdown">
-                <a href="#pricing" className="nav__link dropdown__link">
-                  Pricing
-                </a>
+                <NavLink to="/pricing">
+                  <a href="/pricing" className="nav__link dropdown__link">
+                    Pricing
+                  </a>
+                </NavLink>
               </li>
 
               <li className="nav__item">

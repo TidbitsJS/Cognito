@@ -26,23 +26,23 @@ const Footer = () => {
           </div>
 
           <div className="footer__container__followUs-accounts">
-            <a href="#facebook" class="fb" title="Join us on Facebook">
-              <i class="bx bxl-facebook" aria-hidden="true"></i>
+            <a href="#facebook" className="fb" title="Join us on Facebook">
+              <i className="bx bxl-facebook" aria-hidden="true"></i>
             </a>
-            <a href="#twitter" class="tw" title="Join us on Twitter">
-              <i class="bx bxl-twitter" aria-hidden="true"></i>
+            <a href="#twitter" className="tw" title="Join us on Twitter">
+              <i className="bx bxl-twitter" aria-hidden="true"></i>
             </a>
-            <a href="#googlePlus" class="g-plus" title="Join us on Google+">
-              <i class="bx bxl-google-plus" aria-hidden="true"></i>
+            <a href="#googlePlus" className="g-plus" title="Join us on Google+">
+              <i className="bx bxl-google-plus" aria-hidden="true"></i>
             </a>
-            <a href="#dribble" class="dribbble" title="Join us on Dribbble">
-              <i class="bx bxl-dribbble" aria-hidden="true"></i>
+            <a href="#dribble" className="dribbble" title="Join us on Dribbble">
+              <i className="bx bxl-dribbble" aria-hidden="true"></i>
             </a>
-            <a href="#instagram" class="insta" title="Join us on Instagram">
-              <i class="bx bxl-instagram" aria-hidden="true"></i>
+            <a href="#instagram" className="insta" title="Join us on Instagram">
+              <i className="bx bxl-instagram" aria-hidden="true"></i>
             </a>
-            <a href="#linkedIn" class="in" title="Join us on Linked In">
-              <i class="bx bxl-linkedin" aria-hidden="true"></i>
+            <a href="#linkedIn" className="in" title="Join us on Linked In">
+              <i className="bx bxl-linkedin" aria-hidden="true"></i>
             </a>
           </div>
         </div>

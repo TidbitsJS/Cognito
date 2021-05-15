@@ -1,0 +1,38 @@
+.pricing-page__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 5rem;
+}
+
+.pricing-page__container__text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pricing-page__container__text h2 {
+  font-size: 2.5rem;
+  font-family: inherit;
+  color: var(--title-color);
+  margin-bottom: 0.8rem;
+}
+
+.pricing-page__container__text p {
+  color: var(--para-color);
+  font-size: 1.4rem;
+}
+
+.pricing-page__container__plans-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-color);
+
+  padding: 2.5rem 0rem;
+}
