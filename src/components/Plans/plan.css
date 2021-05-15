@@ -113,3 +113,15 @@
     width: 82%;
   }
 }
+
+@media screen and (max-width: 455px) {
+  .company__plans-container_plan-icon img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .company__plans-container_plan-icon {
+    top: -8%;
+    right: -3.5%;
+  }
+}
