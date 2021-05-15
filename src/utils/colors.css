@@ -18,4 +18,12 @@
   --bg-color: #f1fafb;
   --title-color: #163c70;
   --para-color: #4d5c70;
+
+  --orange-plan: #ff8616;
+  --pink-plan: #ff236c;
+  --green-plan: #05c73f;
+
+  --orange-light-plan: #ffead6;
+  --pink-light-plan: #ffe6ee;
+  --green-light-plan: #dbffe6;
 }

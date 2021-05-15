@@ -99,8 +99,10 @@ const Navbar = () => {
               </li>
 
               <li className="nav__item">
-                <a href="#developers" className="nav__link">
-                  Developers
+                <a href="/developers" className="nav__link">
+                  <NavLink to="/developers" className="nav__link-router__link">
+                    Developers
+                  </NavLink>
                 </a>
               </li>
 

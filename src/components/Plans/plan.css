@@ -108,6 +108,77 @@
   outline: none;
 }
 
+/* different plans color  */
+
+.company__plans-container_plan:nth-child(2)
+  .company__plans-container_plan-type {
+  background: var(--orange-plan);
+}
+
+.company__plans-container_plan:nth-child(2)
+  .company__plans-container_plan-info
+  h2 {
+  color: var(--orange-plan);
+}
+
+.company__plans-container_plan:nth-child(2)
+  .company__plans-container_plan-features {
+  background: var(--orange-light-plan);
+}
+
+.company__plans-container_plan:nth-child(2)
+  .company__plans-container_plan-features-btn
+  button {
+  background: var(--orange-plan);
+  border: var(--orange-plan);
+}
+
+.company__plans-container_plan:nth-child(3)
+  .company__plans-container_plan-type {
+  background: var(--green-plan);
+}
+
+.company__plans-container_plan:nth-child(3)
+  .company__plans-container_plan-info
+  h2 {
+  color: var(--green-plan);
+}
+
+.company__plans-container_plan:nth-child(3)
+  .company__plans-container_plan-features {
+  background: var(--green-light-plan);
+}
+
+.company__plans-container_plan:nth-child(3)
+  .company__plans-container_plan-features-btn
+  button {
+  background: var(--green-plan);
+  border: var(--green-plan);
+}
+
+.company__plans-container_plan:nth-child(4)
+  .company__plans-container_plan-type {
+  background: var(--pink-plan);
+}
+
+.company__plans-container_plan:nth-child(4)
+  .company__plans-container_plan-info
+  h2 {
+  color: var(--pink-plan);
+}
+
+.company__plans-container_plan:nth-child(4)
+  .company__plans-container_plan-features {
+  background: var(--pink-light-plan);
+}
+
+.company__plans-container_plan:nth-child(4)
+  .company__plans-container_plan-features-btn
+  button {
+  background: var(--pink-plan);
+  border: var(--pink-plan);
+}
+
 @media screen and (max-width: 580px) {
   .company-plansText-container__content {
     width: 82%;

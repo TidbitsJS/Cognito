@@ -1,0 +1,129 @@
+.developer-page__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 3rem 0rem;
+}
+
+.developer-page__container_text {
+  width: 100%;
+  text-align: center;
+  font-size: 2.1rem;
+  color: var(--title-color);
+}
+
+.developer-page__container_text h2 {
+  margin-bottom: 0.7rem;
+}
+
+.developer-page__container-line {
+  width: 70%;
+  height: 2px;
+  background: var(--title-color);
+}
+
+.developer-page__container__contentBox {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 2.5rem;
+}
+
+.developer-page__container__index {
+  flex: 1;
+  height: 80vh;
+  position: sticky;
+  top: 15%;
+}
+
+.developer-page__container__index-name {
+  width: 90%;
+  height: 45px;
+  border: 1px solid var(--para-color);
+  background: var(--bg-color);
+  border-radius: 2px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  margin: 0.5rem 0;
+  padding: 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.developer-page__container__index-name a {
+  color: #000;
+  scroll-behavior: smooth;
+}
+
+.developer-page__container__content {
+  flex: 3;
+  margin-top: 0.5rem;
+}
+
+.developer-page__container__content section {
+  border: 1px solid var(--title-color);
+  padding: 1rem;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+
+  margin-bottom: 1rem;
+}
+
+section span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
+}
+
+.developer-page__container__content section h1 {
+  font-size: 1.9rem;
+  margin: 0 0 1rem 0;
+}
+
+.developer-page__container__content section h2 {
+  margin: 0;
+}
+
+.developer-page__container__content code {
+  background: #000;
+  color: #fff;
+  padding: 0.3rem;
+}
+
+@media screen and (max-width: 850px) {
+  .developer-page__container__contentBox {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .developer-page__container {
+    background: #fff;
+  }
+  .developer-page__container__contentBox {
+    flex-direction: column;
+  }
+
+  .developer-page__container__index {
+    height: 20vh;
+    position: unset;
+    width: 100%;
+  }
+
+  .developer-page__container__index-name {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .developer-page__container_text h2 {
+    font-size: 2rem;
+    padding: 0rem 1rem;
+    word-break: break-all;
+  }
+}
