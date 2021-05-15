@@ -19,11 +19,14 @@
   font-family: inherit;
   color: var(--title-color);
   margin-bottom: 0.8rem;
+  text-align: center;
 }
 
 .pricing-page__container__text p {
   color: var(--para-color);
   font-size: 1.4rem;
+  text-align: center;
+  padding: 0 1rem;
 }
 
 .pricing-page__container__plans-container {

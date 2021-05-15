@@ -62,7 +62,7 @@ const Navbar = () => {
           <div className="nav__menu">
             <ul className="nav__list">
               <li className="nav__item dropdown">
-                <a href="#products" className="nav__link dropdown__link active">
+                <a href="#products" className="nav__link dropdown__link">
                   Products <i className="bx bx-chevron-down dropdown__icon"></i>
                 </a>
 
@@ -91,11 +91,11 @@ const Navbar = () => {
               </li>
 
               <li className="nav__item dropdown">
-                <NavLink to="/pricing">
-                  <a href="/pricing" className="nav__link dropdown__link">
+                <a href="/pricing" className="nav__link">
+                  <NavLink to="/pricing" className="nav__link-router__link">
                     Pricing
-                  </a>
-                </NavLink>
+                  </NavLink>
+                </a>
               </li>
 
               <li className="nav__item">
