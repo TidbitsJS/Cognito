@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Developer from "./container/Developer/Developer";
 import Landing from "./container/Landing/Landing";
 import { Pricing } from "./container/Pricing/Pricing";
+import About from "./container/About/About";
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
         </Route>
         <Route path="/developers" exact>
           <Developer />
+        </Route>
+        <Route path="/about" exact>
+          <About />
         </Route>
       </Switch>
       <Footer />

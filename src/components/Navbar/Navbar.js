@@ -114,7 +114,9 @@ const Navbar = () => {
                 <ul className="dropdown__menu">
                   <li className="dropdown__item">
                     <a href="#about" className="nav__link">
-                      About
+                      <NavLink to="/about" className="nav__link-router__link">
+                        About
+                      </NavLink>
                     </a>
                   </li>
                   <li className="dropdown__item">

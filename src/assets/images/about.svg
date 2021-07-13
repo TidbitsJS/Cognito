@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-107.509 -11.945 1171.502 618.601" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <filter id="inner-shadow-filter-0" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="inner-shadow 1 0 0 10 0.5 rgba(255,187,208,1)">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite operator="out" in="SourceGraphic"/>
+      <feComponentTransfer result="choke">
+        <feFuncA type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(255,187,208,1)" result="color"/>
+      <feComposite operator="in" in="color" in2="choke" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+    <filter id="inner-shadow-filter-1" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="inner-shadow 1 0 0 9 0.33 rgba(56,172,255,1)">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur stdDeviation="9"/>
+      <feComposite operator="out" in="SourceGraphic"/>
+      <feComponentTransfer result="choke">
+        <feFuncA type="linear" slope="0.66"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(56,172,255,1)" result="color"/>
+      <feComposite operator="in" in="color" in2="choke" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+    <filter id="inner-shadow-filter-2" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="inner-shadow 1 0 0 10 0.5 rgba(90,255,140,1)">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite operator="out" in="SourceGraphic"/>
+      <feComponentTransfer result="choke">
+        <feFuncA type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(90,255,140,1)" result="color"/>
+      <feComposite operator="in" in="color" in2="choke" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+    <filter id="inner-shadow-filter-3" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="inner-shadow 1 0 0 10 0.5 rgba(255,160,71,1)">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur stdDeviation="10"/>
+      <feComposite operator="out" in="SourceGraphic"/>
+      <feComponentTransfer result="choke">
+        <feFuncA type="linear" slope="1"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(255,160,71,1)" result="color"/>
+      <feComposite operator="in" in="color" in2="choke" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path style="fill: rgb(160, 228, 241); stroke: rgb(160, 228, 241); filter: url(#inner-shadow-filter-1);" d="M 771.609 102.106 C 792.135 102.107 803.308 124.328 791.721 142.103 C 780.134 159.879 754.476 159.877 745.538 142.101 C 738.369 127.843 746.255 109.606 762.096 103.812" transform="matrix(0.976972, -0.213367, 0.213367, 0.976972, -9.75222, 167.179922)"/>
+  <path style="stroke: rgb(255, 234, 214); fill: rgb(255, 234, 214); filter: url(#inner-shadow-filter-3);" d="M 28.157 101.251 C 41.658 101.251 50.097 115.867 43.346 127.56 C 36.595 139.252 19.718 139.252 12.967 127.56 C 9.603 121.733 9.869 114.495 13.652 108.93"/>
+  <path style="fill: rgb(219, 255, 230); stroke: rgb(219, 255, 230); filter: url(#inner-shadow-filter-2);" d="M 52.9 629.409 C 85.893 629.409 106.515 593.693 90.018 565.12 C 73.522 536.548 32.281 536.548 15.784 565.12 C 8.283 578.113 8.121 594.082 15.358 607.224"/>
+  <path style="fill: rgb(255, 230, 238); stroke: rgb(255, 230, 238); filter: url(#inner-shadow-filter-0);" d="M 1020.856 476.008 C 1060.169 476.008 1082.896 522.802 1061.766 560.24 C 1040.635 597.677 991.496 597.677 973.315 560.24 C 962.329 537.622 967.329 508.989 985.379 491.15" transform="matrix(-0.555582, 0.831462, -0.831462, -0.555582, 2027.113736, -19.17085)"/>
+  <path style="fill: rgb(255, 255, 255); fill-opacity: 0; stroke: rgb(160, 228, 241);" d="M 149.487 564.98 C 523.207 683.26 865.374 434.029 1091.881 25.356" transform="matrix(0.996945, -0.078102, 0.078102, 0.996945, -25.8568, 49.608741)"/>
+</svg>
